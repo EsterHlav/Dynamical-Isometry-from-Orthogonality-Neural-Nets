@@ -4,10 +4,10 @@
 
 <br/>
 
-How does orthogonal initialization of weight matrices help improve the training of neural networks? What happens, if we further impose orthogonality during training? In this project, we research the effect of dynamical isometry and its positive impact on convergence during training.
+How does orthogonal initialization of weight matrices help improve the training of neural networks? What happens if we further impose orthogonality during training? We research the effect of dynamical isometry and its positive impact on convergence during training.
 
 ### What is Dynamical Isometry?
-Dynamical Isometry happens when the singular values of the input-output Jacobian for weight matrixes equal one. When the Jacobian *J* is well-conditioned, *i.e.* its eigenvalues are equal to one, then *J* is a norm-preserving-mapping, the mean of the Spectral density of *J* becomes one and dynamical isometry is reached. When a neural network achieves dynamical isometry, the gradient avoids the chaotic (exploding gradient) as well as ordered (vanishing gradient) zone, which triggers better and faster convergence.
+Dynamical Isometry happens when the singular values of the input-output Jacobian for weight matrices equal one. When the Jacobian *J* is well-conditioned, *i.e.* its eigenvalues are equal to one, then *J* is a norm-preserving-mapping, the mean of the Spectral density of *J* becomes one and dynamical isometry is reached. When a neural network achieves dynamical isometry, the gradient avoids the chaotic (exploding gradient) as well as ordered (vanishing gradient) zone, which triggers better and faster convergence.
 
 ![](https://github.com/EsterHlav/Dynamical-Isometry-from-Orthogonality-Neural-Nets/blob/master/ordered_chaotic.png?raw=true)
 
